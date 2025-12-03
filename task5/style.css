@@ -1,0 +1,116 @@
+body {
+    font-family: Arial;
+    background: #eef7f2;
+    margin: 0;
+}
+
+header {
+    background: #2c7a7b;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #b0d4c5;
+}
+
+th {
+    background: #d7f1e5;
+}
+
+.section-title {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.demo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    gap: 20px;
+}
+
+.demo-box {
+    background: #dff5e7;
+    padding: 20px;
+    border: 2px dashed #9acbb5;
+}
+
+.flex-container div,
+.row div,
+.grow-box div {
+    background: #2c9da8;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-end {
+    align-items: flex-end;
+}
+
+.end-box {
+    background: #2c9da8;
+    color: #fff;
+    width: 40px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grow-box {
+    display: flex;
+}
+
+.item1, .item3 {
+    flex: 1;
+    flex-basis: 100px;
+}
+
+.item2 {
+    align-self: flex-start;
+    order: 2;
+}
+
+.pseudo-box a {
+    display: block;
+    padding: 5px;
+    margin: 4px 0;
+    text-decoration: none;
+    color: #1a5c57;
+}
+
+.pseudo-box a:hover {
+    background: #2c9da8;
+    color: white;
+}
+
+.special {
+    background: #8fe6a1;
+}
